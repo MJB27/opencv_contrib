@@ -135,7 +135,7 @@ def clock():
 
 @contextmanager
 def Timer(msg):
-    print msg, '...',
+    print msg, '',
     start = clock()
     try:
         yield
